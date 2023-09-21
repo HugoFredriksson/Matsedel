@@ -1,0 +1,88 @@
+body {
+  display: grid;
+  width: 100%;
+  height: 98vh;
+  margin: 0;
+  grid-template-rows: 100px auto 30px;
+  grid-template-areas: "header" "main" "footer";
+}
+
+header {
+  display: flex;
+  grid-area: header;
+  background-color: rgb(32, 161, 0);
+}
+header h1 {
+  margin: auto;
+}
+
+#week {
+  display: none;
+}
+
+ul {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  padding-left: 0;
+}
+ul li {
+  border: 2px solid black;
+}
+ul li a {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 4vh;
+}
+ul li a:hover {
+  background-color: grey;
+}
+
+main {
+  grid-area: main;
+}
+main section {
+  padding-bottom: 10px;
+}
+main strong {
+  margin: auto;
+}
+main #weekSelector {
+  text-align: center;
+}
+main #weekSelector p {
+  font-size: 4vh;
+  text-align: right;
+  display: none;
+}
+main #matsedel section {
+  display: block;
+  flex-direction: row;
+  text-align: center;
+  border: 2px solid black;
+}
+main #addedItems {
+  display: none;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    margin: auto;
+  }
+  main #matsedel {
+    display: flex;
+  }
+  main #matsedel #addedItems {
+    display: flex;
+  }
+  #weekSelector p {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
