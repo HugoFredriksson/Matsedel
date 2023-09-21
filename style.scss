@@ -10,7 +10,6 @@ body {
     'footer';
 }
 
-
 header {
     display: flex;
     grid-area: header;
@@ -79,7 +78,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     main {
         margin: auto;
         #matsedel {
