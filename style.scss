@@ -110,13 +110,19 @@ main {
 
 footer {
     grid-area: footer;
-    justify-content: center;
-    background-color: rgb(217, 217, 217);
-    margin-bottom: auto;
-    display: flex;
+    text-align: center;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
+    main {
+        margin: auto;
+        #matsedel {
+            display: flex; 
+            #addedItems {
+                display: flex;
+            }
+        }  
+    }
     #weekSelector {
         section {
             p {
