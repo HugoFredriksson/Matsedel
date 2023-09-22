@@ -14,6 +14,7 @@ header {
 }
 header h1 {
   margin: auto;
+  font-size: 4vw;
 }
 
 #week {
@@ -34,7 +35,7 @@ ul li {
 ul li a {
   padding-left: 5px;
   padding-right: 5px;
-  font-size: 4vh;
+  font-size: 3.5vw;
 }
 ul li a:hover {
   background-color: grey;
@@ -69,10 +70,13 @@ main #addedItems {
 
 footer {
   grid-area: footer;
-  text-align: center;
+  justify-content: center;
+  background-color: rgb(217, 217, 217);
+  margin-bottom: auto;
+  display: flex;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   main {
     margin: auto;
   }
