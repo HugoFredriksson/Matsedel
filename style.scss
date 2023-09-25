@@ -26,6 +26,8 @@ header {
     text-align: center;
     margin: auto;
     border: 2px solid black;
+    grid-gap: 2vw 0;
+    width: 99vw;
     section {
         border: 2px solid black;
     }
@@ -98,7 +100,6 @@ footer {
     .wrapper {
         display: table;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-        grid-gap: 2vw 0;  
         width: 95vw;
         border: 1px solid black;
         text-align: center;
