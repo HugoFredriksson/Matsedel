@@ -45,26 +45,6 @@ header h1 {
   grid-column: 5;
 }
 
-ul {
-  display: flex;
-  gap: 0;
-  list-style: none;
-  text-align: center;
-  justify-content: center;
-  padding-left: 0;
-}
-ul li {
-  border: 2px solid black;
-}
-ul li a {
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 3.5vw;
-}
-ul li a:hover {
-  background-color: grey;
-}
-
 main {
   grid-area: main;
 }
@@ -80,8 +60,8 @@ main strong {
 main #weekSelector {
   text-align: left;
 }
-main #weekSelector p {
-  font-size: 4vh;
+main #weekSelector h2 {
+  font-size: 4em;
   text-align: right;
   padding-right: 10px;
 }
@@ -94,15 +74,12 @@ footer {
 
 @media screen and (max-width: 600px) {
   .wrapper {
-    display: table;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 95vw;
+    display: block;
+    width: 95%;
     border: 1px solid black;
     text-align: center;
   }
   .wrapper > section {
-    display: grid;
-    grid-template-rows: 50px auto;
     border: 2px solid black;
   }
 }/*# sourceMappingURL=style.css.map */
