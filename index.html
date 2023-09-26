@@ -17,13 +17,17 @@
       <div id="weekSelector">
         <section>
           <strong>Vecka :</strong> 
-          <input type="week" name="week" id="week" min="2023-W32" max="2023-W52" onblur="getWeek()">  
+          <input type="week" name="week" id="week" min="2023-W32" max="2023-W52">  
             <h2></h2>
         </section>
       </div>
       <div class="wrapper">
-        <section>
-          <h3>Måndag</h3>  
+  <!--  <section>
+          <h3>Måndag</h3>
+          
+          eventlistener("input" , event =>{
+            getWeek();
+          })
         </section>
         <section>
           <p>Lunch 1</p>
@@ -61,10 +65,9 @@
           <p>Lunch 1f</p>
           <p>Lunch 1</p>
           <p>Lunch 1</p>
-        </section>
+        </section> -->
       </div>
     </main>
     <footer>
-      <p>Teknikum - Matsedel</p>
     </footer>
   </body>

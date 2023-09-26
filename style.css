@@ -14,7 +14,7 @@ header {
 }
 header h1 {
   margin: auto;
-  font-size: 4.5vw;
+  font-size: 3em;
 }
 
 .wrapper {
@@ -22,8 +22,8 @@ header h1 {
   text-align: center;
   margin: auto;
   border: 2px solid black;
-  grid-gap: 2vw 0;
-  width: 99vw;
+  grid-gap: 2em 0;
+  width: 99%;
 }
 .wrapper section {
   border: 2px solid black;
@@ -32,15 +32,15 @@ header h1 {
   grid-row: 1;
   grid-column: 2;
 }
-.wrapper section:nth-child(5) {
+.wrapper section:nth-child(6) {
   grid-row: 1;
   grid-column: 3;
 }
-.wrapper section:nth-child(7) {
+.wrapper section:nth-child(9) {
   grid-row: 1;
   grid-column: 4;
 }
-.wrapper section:nth-child(9) {
+.wrapper section:nth-child(12) {
   grid-row: 1;
   grid-column: 5;
 }
