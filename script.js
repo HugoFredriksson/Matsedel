@@ -1,8 +1,9 @@
 let Json = [
-    {"datum": "26 sep", "namn":"Köttbullar"},
+    {"datum": "25 sep", "namn":"Köttbullar"},
     {"datum": "26 sep", "namn":"Paprika"},
-    {"datum": "27 sep", "namn":"Pizza"},
-    {"datum": "27 sep", "namn":"Kött"}
+    {"datum": "27 sep", "namn":"Köttbullar2"},
+    {"datum": "28 sep", "namn":"Paprika2"},
+    {"datum": "30 sep", "namn":"Kött"}
 ];
 let div;
 let weekNumber;
